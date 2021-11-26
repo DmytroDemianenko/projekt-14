@@ -1,0 +1,56 @@
+.collection {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  @media screen and (min-width: 768px) {
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: -15px;
+
+    /*** Ширина для карточек по классу item
+    &__item {
+      @media screen and (max-width: 767px) {
+        &:not(:last-child) {
+          margin-bottom: 20px;
+        }
+      }
+      @media screen and (min-width: 768px) {
+        margin: 15px;
+        flex-basis: calc((100% - 2 * 30px) / 2);
+      }
+      @media screen and (min-width: 1280px) {
+        flex-basis: calc((100% - 3 * 30px) / 3);
+      }
+    }
+    */
+  }
+}
+.container-main-content {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px 0 20px;
+  width: 100%;
+
+  @media screen and (min-width: 320px) {
+    width: 320px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    padding: 0 30px 0 30px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: 1024px;
+  }
+}
+.section-main-content {
+  padding-top: 20px;
+  padding-bottom: 40px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
